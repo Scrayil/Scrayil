@@ -9,7 +9,7 @@
 - 📚 I’m currently studying computer engineering.
 - 🌱 I’m currently learning cybersecurity, artificial intelligence and machine learning by myself, in my free time.
 - 💬 Ask me about any topic.
-- 📫 How to reach me: [mattia.bennati@mailbox.org](mailto:mattia.bennati@mailbox.org)
+- 📫 How to reach me: [mattia.bennati@mailbox.org](mailto:mattia.bennati@mailbox.org), [Matrix](https://matrix.to/#/@scrayil:matrix.org)
 - 😄 Pronouns: He/Him
 
 <!-- &ivate=true&count_private=true&show_icons=true -->
