@@ -16,7 +16,7 @@
   <img src="https://github.com/Scrayil/Scrayil/blob/master/email.png" width="45" height="45">
 </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://matrix.to/#/@scrayil:matrix.org">
-  <img src="https://matrix.org/images/matrix-logo.svg" width="100" height="45">
+  <img src="https://github.com/Scrayil/Scrayil/blob/master/matrix.svg" width="100" height="45">
 </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://discordapp.com/users/481689811619545101">
   <img src="https://github.com/Scrayil/Scrayil/blob/master/discord.png" width="45" height="45">
