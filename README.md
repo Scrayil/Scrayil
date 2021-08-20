@@ -14,22 +14,22 @@
 ### How to reach me:
 <a href="mailto:mattia.bennati@mailbox.org">
   <img src="https://github.com/Scrayil/Scrayil/blob/master/email.png" width="45" height="45">
-</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://matrix.to/#/@scrayil:matrix.org">
   <img src="https://matrix.org/images/matrix-logo.svg" width="100" height="45">
-</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://discordapp.com/users/481689811619545101">
   <img src="https://github.com/Scrayil/Scrayil/blob/master/discord.png" width="45" height="45">
-</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://t.me/Scrayil">
   <img src="https://github.com/Scrayil/Scrayil/blob/master/telegram.png" width="45" height="45">
-</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://vimeo.com/user135105416">
   <img src="https://github.com/Scrayil/Scrayil/blob/master/vimeo.png" width="45" height="45">
 </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://www.instagram.com/mattia.bennati/">
   <img src="https://github.com/Scrayil/Scrayil/blob/master/instagram.png" width="45" height="45">
-</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 <br>
 <br>
