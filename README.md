@@ -23,10 +23,10 @@
 </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://t.me/Scrayil">
   <img src="https://github.com/Scrayil/Scrayil/blob/master/telegram.png" width="45" height="45">
-</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://vimeo.com/user135105416">
   <img src="https://github.com/Scrayil/Scrayil/blob/master/vimeo.png" width="45" height="45">
-</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://www.instagram.com/mattia.bennati/">
   <img src="https://github.com/Scrayil/Scrayil/blob/master/instagram.png" width="45" height="45">
 </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
