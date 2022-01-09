@@ -34,5 +34,5 @@
 <!-- The following line shows an image containing the github stats -->
 ![Mattia Bennati's GitHub stats](https://github-readme-stats.vercel.app/api?username=Scrayil&theme=onedark&ivate=true&count_private=true&show_icons=true)
 
-
+#### Codewars badge
 ![Codewars stats](https://www.codewars.com/users/Scrayil/badges/large)
