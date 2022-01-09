@@ -32,7 +32,8 @@
 <br>
 
 <!-- The following line shows an image containing the github stats -->
-![Mattia Bennati's GitHub stats](https://github-readme-stats.vercel.app/api?username=Scrayil&theme=onedark&ivate=true&count_private=true&show_icons=true)
+[![Mattia Bennati's GitHub stats](https://github-readme-stats.vercel.app/api?username=Scrayil&theme=onedark&ivate=true&count_private=true&show_icons=true)](https://github.com/Scrayil/)
 
-#### Codewars badge
-![Codewars stats](https://www.codewars.com/users/Scrayil/badges/large)
+---
+#### Badges
+[![Codewars stats](https://www.codewars.com/users/Scrayil/badges/large)](https://www.codewars.com/users/Scrayil)  [![Scrayil](https://www.hackthebox.eu/badge/image/498656)](https://app.hackthebox.com/profile/498656)
