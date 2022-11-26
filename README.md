@@ -6,8 +6,9 @@
 **Scrayil/Scrayil** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
 
-- 📚 I’m currently studying computer engineering.
-- 🌱 I’m currently learning cybersecurity, artificial intelligence and machine learning by myself, in my free time.
+- 🖥️ IT Engineer.
+- 📚 I’m currently studying artificial intelligence at university.
+- 🌱 I’m currently learning cybersecurity by myself, in my free time.
 - 💬 Ask me about any topic.
 - 😄 Pronouns: He/Him
 
