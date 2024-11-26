@@ -16,6 +16,8 @@ def create_rank_animation(driver):
     fps = 60
     n_frames = fps * 5
     for i in range(n_frames):  # Retrieving 300 frames
+        if i == 0:
+            element.screenshot(f"data/htb/rank_animation_frame.png")
         element.screenshot(f"screenshots/frame_{i:03d}.png")
         time.sleep(1/fps)  # (60 fps)
 
