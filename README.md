@@ -72,8 +72,11 @@ and technologies every day.
 
 ---
 ### 👨🏻‍💻 HTB
+[![HTB Rank](data/htb/htb_rank.gif)](https://app.hackthebox.com/profile/498656)
+<!-- CURRENTLY DISABLED AN REPLACED BY THE RANK'S ANIMATION -->  
+<!--
 <a href="https://app.hackthebox.com/profile/498656">
-    <div class="row">
+  <div class="row">
         <img src="data/htb/rank_animation_frame.png" width="32.4%" alt="HTB Rank">
         <img src="data/htb/rank_progress.png" width="32.4%" alt="Rank Progress">
         <img src="data/htb/ownership.png" width="32.4%" alt="HTB Rank">
@@ -86,6 +89,7 @@ and technologies every day.
         <img src="data/htb/respect.png" width="18%" alt="HTB Rank">
     </div>
 </a>
+-->
 
 ---
 ### 📈 Stats
