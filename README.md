@@ -71,7 +71,7 @@ and technologies every day.
 </div>
 
 ---
-### 👨🏻‍💻 HTB | 26/11/24
+### 👨🏻‍💻 HTB
 <a href="https://app.hackthebox.com/profile/498656">
     <div class="row">
         <img src="data/htb/rank_animation_frame.png" width="32.4%" alt="HTB Rank">
