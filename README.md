@@ -94,8 +94,8 @@ and technologies every day.
 ---
 ### 📈 Stats
 <a href="https://github.com/Scrayil/">
-  <img height="200" src="https://github-readme-stats.vercel.app/api?username=Scrayil&theme=onedark&count_private=true&show_icons=true" alt="GitHub stats" />
-  <img height="200" src="https://github-readme-stats.vercel.app/api/top-langs?username=Scrayil&layout=compact&theme=onedarkcard_width=320&langs_count=8" alt="Languages stats" />
+  <img height="200" width="50%" src="https://github-readme-stats.vercel.app/api?username=Scrayil&theme=onedark&count_private=true&show_icons=true" alt="GitHub stats" />
+  <img height="200" src="https://github-readme-stats.vercel.app/api/top-langs?username=Scrayil&layout=compact&theme=onedark&card_width=320&langs_count=8" alt="Languages stats" />
 </a>
 
 ---
