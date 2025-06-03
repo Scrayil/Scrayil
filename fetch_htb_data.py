@@ -82,7 +82,7 @@ def fetch_activity():
                 for activity in activities:
                     if activity["object_type"] != "machine" or activity["type"] == "user":
                         continue
-                    readme_data+= f'    <img src="https://labs.hackthebox.com/{activity["machine_avatar"]}" alt="{activity["name"]}" />\n'
+                    readme_data+= f'    <img src="https://labs.hackthebox.com/{activity["machine_avatar"]}" alt="{activity["name"]}" width="64px" height="64px"/>\n'
                 readme_data += "</details>\n"
                 f.seek(0)
                 f.truncate()
