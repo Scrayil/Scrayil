@@ -95,14 +95,23 @@ and technologies every day.
 
 ---
 ### 📈 Stats
-<a href="https://github.com/Scrayil?tab=repositories">
-  <img height="200" src="https://github-readme-stats.vercel.app/api?username=Scrayil&theme=onedark&count_private=true&show_icons=true" alt="GitHub stats" />
-  <img height="200" src="https://github-readme-stats.vercel.app/api/top-langs?username=Scrayil&layout=compact&theme=onedark&card_width=320&hide=html,css&langs_count=8" alt="Languages stats" />
-</a>
+<p align="start">
+  <a href="https://github.com/Scrayil?tab=repositories">
+    <img align="center" height="195" src="https://github-readme-stats-two-psi-23.vercel.app/api?username=scrayil&count_private=true&include_all_commits=true&theme=onedark&show_icons=true" alt="GitHub stats" />
+    <img align="center" height="195" src="https://github-readme-stats-two-psi-23.vercel.app/api/top-langs?username=scrayil&count_private=true&include_all_commits=true&layout=compact&theme=onedark&card_width=320&hide=html,css&langs_count=8" alt="Languages stats" />       
+  </a>
+</p>
 
 ---
 ### 🪪 Badges
-[![Scrayil](https://www.hackthebox.eu/badge/image/498656)](https://app.hackthebox.com/profile/498656)  [![Codewars stats](https://www.codewars.com/users/Scrayil/badges/large)](https://www.codewars.com/users/Scrayil)
+<p align="start">
+  <a href="https://app.hackthebox.com/profile/498656">
+    <img align="center" src="https://www.hackthebox.eu/badge/image/498656" alt="HackTheBox Badge" />
+  </a>
+  <a href="https://www.codewars.com/users/Scrayil">
+    <img align="center" src="https://www.codewars.com/users/Scrayil/badges/large" alt="Codewars Stats" />
+  </a>
+</p>
 
 ---
 <details>
