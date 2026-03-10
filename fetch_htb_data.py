@@ -29,7 +29,7 @@ def create_rank_image(driver: webdriver.Firefox) -> None:
     Args:
         driver (webdriver.Firefox): The configured Selenium WebDriver instance.
     """
-    element = driver.find_element(By.CSS_SELECTOR, "#waves")
+    element = driver.find_element(By.CSS_SELECTOR, ".common-stats-card__root__top-section")
     data_dir = Path("data/htb")
     data_dir.mkdir(parents=True, exist_ok=True)
     element.screenshot(str(data_dir / "rank.png"))
@@ -52,21 +52,21 @@ def fetch_htb_progress_images() -> None:
 
         create_rank_image(driver)
 
-        rank_details_css_prefix = "#UserRankDetails > div:nth-child(1) > div:nth-child(1) > "
-        rank_progress_elem = driver.find_element(By.CSS_SELECTOR, rank_details_css_prefix + "div:nth-child(2)")
-        rank_progress_elem.screenshot("data/htb/rank_progress.png")
+        # rank_details_css_prefix = "#UserRankDetails > div:nth-child(1) > div:nth-child(1) > "
+        # rank_progress_elem = driver.find_element(By.CSS_SELECTOR, rank_details_css_prefix + "div:nth-child(2)")
+        # rank_progress_elem.screenshot("data/htb/rank_progress.png")
 
-        ownership_elem = driver.find_element(By.CSS_SELECTOR, rank_details_css_prefix + "div:nth-child(3)")
-        ownership_elem.screenshot("data/htb/ownership.png")
+        # ownership_elem = driver.find_element(By.CSS_SELECTOR, rank_details_css_prefix + "div:nth-child(3)")
+        # ownership_elem.screenshot("data/htb/ownership.png")
 
-        badges = ["global_rank.png", "final_score.png", "user_owns.png", "system_owns.png", "respect.png"]
-        rank_details_css_prefix = "#UserRankDetails > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > "
-        for i, badge in enumerate(badges):
-            badge_elem = driver.find_element(
-                By.CSS_SELECTOR,
-                rank_details_css_prefix + f"div:nth-child({8 + i}) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)"
-            )
-            badge_elem.screenshot(f"data/htb/{badge}")
+        # badges = ["global_rank.png", "final_score.png", "user_owns.png", "system_owns.png", "respect.png"]
+        # rank_details_css_prefix = "#UserRankDetails > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > "
+        # for i, badge in enumerate(badges):
+        #     badge_elem = driver.find_element(
+        #         By.CSS_SELECTOR,
+        #         rank_details_css_prefix + f"div:nth-child({8 + i}) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)"
+        #     )
+        #     badge_elem.screenshot(f"data/htb/{badge}")
     finally:
         driver.quit()
 
