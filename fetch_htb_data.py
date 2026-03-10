@@ -22,17 +22,18 @@ MARKER_START = "<!-- HTB Activities-Start -->"
 MARKER_END = "<!-- HTB Activities-Stop -->"
 
 
-def create_rank_image(driver: webdriver.Firefox) -> None:
+def create_rank_images(driver: webdriver.Firefox) -> None:
     """
-    Generates a png image from the user rank element.
+    Generates two png images from the user rank elements.
 
     Args:
         driver (webdriver.Firefox): The configured Selenium WebDriver instance.
     """
-    element = driver.find_element(By.CSS_SELECTOR, ".common-stats-card__root__top-section")
+    elements = driver.find_elements(By.CSS_SELECTOR, ".common-stats-card__root__top-section")
     data_dir = Path("data/htb")
     data_dir.mkdir(parents=True, exist_ok=True)
-    element.screenshot(str(data_dir / "rank.png"))
+    elements[0].screenshot(str(data_dir / "rank.png"))
+    elements[1].screenshot(str(data_dir / "points.png"))
 
 
 def fetch_htb_progress_images() -> None:
