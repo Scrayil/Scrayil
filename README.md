@@ -74,7 +74,7 @@ and technologies every day.
 
 ---
 ### 👨🏻‍💻 HTB
-[![HTB Rank](data/htb/htb_rank.gif)](https://app.hackthebox.com/profile/498656)
+[![HTB Rank](data/htb/rank.png)](https://app.hackthebox.com/profile/498656)
 <!-- CURRENTLY DISABLED AN REPLACED BY THE RANK'S ANIMATION -->  
 <!--
 <a href="https://app.hackthebox.com/profile/498656">
