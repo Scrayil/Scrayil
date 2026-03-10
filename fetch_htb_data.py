@@ -158,7 +158,7 @@ def fetch_activity() -> None:
         if avatar_path.startswith("/"):
             avatar_path = avatar_path[1:]
 
-        full_url = f"https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/{avatar_path}"
+        full_url = f"https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/{avatar_path}"
         existing_src = existing_images.get(machine_name, "")
 
         final_src = cache_image_locally(full_url, machine_name, existing_src, session)
