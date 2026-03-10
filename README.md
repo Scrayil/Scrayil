@@ -74,10 +74,9 @@ and technologies every day.
 
 ---
 ### 👨🏻‍💻 HTB
-<p align="start">
+<p align="center">
   <a href="https://app.hackthebox.com/profile/498656">
-    <img align="center" width="450" src="data/htb/rank.png" alt="HTB Rank" />
-    <img align="center" width="450" src="data/htb/points.png" alt="HTB Points" />       
+    <img src="data/htb/rank.png" alt="HTB Rank" width="50%" /><img src="data/htb/points.png" alt="HTB Points" width="50%" />
   </a>
 </p>
 
