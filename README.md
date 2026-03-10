@@ -179,4 +179,5 @@ and technologies every day.
     <img src="https://labs.hackthebox.com/storage/avatars/4abda8d32b5c71e6905244988879c575_thumb.png" alt="Vaccine" width="64px" height="64px"/>
     <img src="https://labs.hackthebox.com/storage/avatars/c5843e27067b877dfba7a82e4209a279_thumb.png" alt="Oopsie" width="64px" height="64px"/>
     <img src="https://labs.hackthebox.com/storage/avatars/b39473da3f36b9b5718d6c76eb573a10_thumb.png" alt="Archetype" width="64px" height="64px"/>
+<!-- HTB Activities-Stop --><br>
 </details>
