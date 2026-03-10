@@ -51,7 +51,7 @@ def fetch_htb_progress_images() -> None:
         driver.set_window_size(1920, 1080)
         driver.get("https://app.hackthebox.com/profile/498656")
 
-        create_rank_image(driver)
+        create_rank_images(driver)
 
         # rank_details_css_prefix = "#UserRankDetails > div:nth-child(1) > div:nth-child(1) > "
         # rank_progress_elem = driver.find_element(By.CSS_SELECTOR, rank_details_css_prefix + "div:nth-child(2)")
