@@ -1,6 +1,5 @@
 """
 Automated Hack The Box profile synchronization and activity processing.
-SPDX-License-Identifier: AGPL-3.0-or-later
 """
 
 import json
@@ -23,40 +22,17 @@ MARKER_START = "<!-- HTB Activities-Start -->"
 MARKER_END = "<!-- HTB Activities-Stop -->"
 
 
-def create_rank_animation(driver: webdriver.Firefox) -> None:
+def create_rank_image(driver: webdriver.Firefox) -> None:
     """
-    Generates a GIF animation from the user rank element using temporary frames.
+    Generates a png image from the user rank element.
 
     Args:
         driver (webdriver.Firefox): The configured Selenium WebDriver instance.
     """
     element = driver.find_element(By.CSS_SELECTOR, "#waves")
-    fps = 60
-    n_frames = fps * 5
-
     data_dir = Path("data/htb")
     data_dir.mkdir(parents=True, exist_ok=True)
-
-    with tempfile.TemporaryDirectory() as temp_dir:
-        temp_path = Path(temp_dir)
-        for i in range(n_frames):
-            if i == 0:
-                element.screenshot(str(data_dir / "rank_animation_frame.png"))
-            element.screenshot(str(temp_path / f"frame_{i:03d}.png"))
-            time.sleep(1 / fps)
-
-        frame_files = sorted(temp_path.glob("frame_*.png"))
-        frames = [Image.open(frame) for frame in frame_files]
-
-        if frames:
-            frame_duration = int(1000 / fps)
-            frames[0].save(
-                data_dir / "htb_rank.gif",
-                save_all=True,
-                append_images=frames[1:],
-                duration=frame_duration,
-                loop=0
-            )
+    element.screenshot(str(data_dir / "rank.png"))
 
 
 def fetch_htb_progress_images() -> None:
@@ -74,7 +50,7 @@ def fetch_htb_progress_images() -> None:
         driver.set_window_size(1920, 1080)
         driver.get("https://app.hackthebox.com/profile/498656")
 
-        create_rank_animation(driver)
+        create_rank_image(driver)
 
         rank_details_css_prefix = "#UserRankDetails > div:nth-child(1) > div:nth-child(1) > "
         rank_progress_elem = driver.find_element(By.CSS_SELECTOR, rank_details_css_prefix + "div:nth-child(2)")
