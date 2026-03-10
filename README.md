@@ -116,7 +116,8 @@ and technologies every day.
 ---
 <details>
     <summary>🎯 Rooted Machines</summary>
-<!-- HTB Activities-Start --><br>
+<!-- HTB Activities-Start -->
+<br>
     <img src="https://labs.hackthebox.com/storage/avatars/defa149ea7e259a4709a03a5825e970d_thumb.png" alt="Return" width="64px" height="64px"/>
     <img src="https://labs.hackthebox.com/storage/avatars/60dc190c4c015cfe3a3aef9b5afca254_thumb.png" alt="Legacy" width="64px" height="64px"/>
     <img src="https://labs.hackthebox.com/storage/avatars/8e9f11a3cceeb4f69e659ed31347cc77_thumb.png" alt="Instant" width="64px" height="64px"/>
@@ -157,7 +158,6 @@ and technologies every day.
     <img src="https://labs.hackthebox.com/storage/avatars/e2e239f39430cf597202497d910b82b8_thumb.png" alt="Validation" width="64px" height="64px"/>
     <img src="https://labs.hackthebox.com/storage/avatars/a24c032885e56a17a6c74cc58b63e8f4_thumb.png" alt="BountyHunter" width="64px" height="64px"/>
     <img src="https://labs.hackthebox.com/storage/avatars/e3c542ada4b134e29e534e3081ef9650_thumb.png" alt="Previse" width="64px" height="64px"/>
-    <img src="https://labs.hackthebox.com/storage/avatars/0498c581c03086e7bb2eba54bdf02154_thumb.png" alt="Guard" width="64px" height="64px"/>
     <img src="https://labs.hackthebox.com/storage/avatars/619fa91801ba0956c435db03ab267118_thumb.png" alt="Markup" width="64px" height="64px"/>
     <img src="https://labs.hackthebox.com/storage/avatars/4cc4df6c442b3d58d84d26131bee76b2_thumb.png" alt="Included" width="64px" height="64px"/>
     <img src="https://labs.hackthebox.com/storage/avatars/52e077ae40899ab8b024afd51cb29b1c_thumb.png" alt="Blue" width="64px" height="64px"/>
@@ -174,8 +174,6 @@ and technologies every day.
     <img src="https://labs.hackthebox.com/storage/avatars/7dedecb452597150647e73c2dd6c24c7_thumb.png" alt="Forest" width="64px" height="64px"/>
     <img src="https://labs.hackthebox.com/storage/avatars/ca06c447787b38ec940eb55d5c54b14c_thumb.png" alt="Writeup" width="64px" height="64px"/>
     <img src="https://labs.hackthebox.com/storage/avatars/4256f259c8ac66a3eda11206371eaf8b_thumb.png" alt="Armageddon" width="64px" height="64px"/>
-    <img src="https://labs.hackthebox.com/storage/avatars/7dbfc40519573033f6646a54b15e50bc_thumb.png" alt="Pathfinder" width="64px" height="64px"/>
-    <img src="https://labs.hackthebox.com/storage/avatars/7f69173bde88bb8a2a9dd1f6f2e06dd7_thumb.png" alt="Shield" width="64px" height="64px"/>
     <img src="https://labs.hackthebox.com/storage/avatars/4abda8d32b5c71e6905244988879c575_thumb.png" alt="Vaccine" width="64px" height="64px"/>
     <img src="https://labs.hackthebox.com/storage/avatars/c5843e27067b877dfba7a82e4209a279_thumb.png" alt="Oopsie" width="64px" height="64px"/>
     <img src="https://labs.hackthebox.com/storage/avatars/b39473da3f36b9b5718d6c76eb573a10_thumb.png" alt="Archetype" width="64px" height="64px"/>
