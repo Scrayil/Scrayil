@@ -75,7 +75,7 @@ and technologies every day.
 ---
 ### 👨🏻‍💻 HTB
 <p align="center">
-  <a href="https://app.hackthebox.com/profile/498656">
+  <a href="https://app.hackthebox.com/users/498656">
     <img src="data/htb/rank.png" alt="HTB Rank" width="49%" />
     <img src="data/htb/points.png" alt="HTB Points" width="49%" />
   </a>
@@ -93,7 +93,7 @@ and technologies every day.
 ---
 ### 🪪 Badges
 <p align="start">
-  <a href="https://app.hackthebox.com/profile/498656">
+  <a href="https://app.hackthebox.com/users/498656">
     <img align="center" src="https://www.hackthebox.eu/badge/image/498656" alt="HackTheBox Badge" />
   </a>
   <a href="https://www.codewars.com/users/Scrayil">
