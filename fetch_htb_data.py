@@ -8,6 +8,7 @@ import re
 import tempfile
 import time
 from pathlib import Path
+import traceback
 
 import requests
 from PIL import Image
@@ -16,58 +17,48 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.firefox.service import Service
 
-
+RANK_PROFILE_URL="https://profile.hackthebox.com/profile/019e4906-1313-717c-aeb0-cf4bc73841b3?utm_medium=copy_url"
+API_ACTIVITY_URL="https://labs.hackthebox.com/api/v5/user/profile/activity/498656"
 README_PATH = Path("README.md")
 MARKER_START = "<!-- HTB Activities-Start -->"
 MARKER_END = "<!-- HTB Activities-Stop -->"
-
+ERROR=0
 
 def create_rank_images(driver: webdriver.Firefox) -> None:
     """
-    Generates two png images from the user rank elements.
+    Generates a png image from the user rank elements.
 
     Args:
         driver (webdriver.Firefox): The configured Selenium WebDriver instance.
     """
-    elements = driver.find_elements(By.CSS_SELECTOR, ".common-stats-card__root__top-section")
+    elements = driver.find_elements(By.CSS_SELECTOR, ".rank-image-grid-decor")
     data_dir = Path("data/htb")
     data_dir.mkdir(parents=True, exist_ok=True)
     elements[0].screenshot(str(data_dir / "rank.png"))
-    elements[1].screenshot(str(data_dir / "points.png"))
 
 
 def fetch_htb_progress_images() -> None:
     """
     Captures high-resolution profile statistics using a headless browser.
     """
+    global ERROR
     options = Options()
     options.add_argument("--headless")
     options.set_preference("layout.css.devPixelsPerPx", "3.0")
+    if firefox_bin := os.environ.get("FIREFOX_BIN"):
+        options.binary_location = firefox_bin
 
-    service = Service()
+    service = Service(executable_path=os.environ.get("GECKODRIVER_PATH"))
     driver = webdriver.Firefox(service=service, options=options)
 
     try:
         driver.set_window_size(1920, 1080)
-        driver.get("https://app.hackthebox.com/profile/498656")
+        driver.get(RANK_PROFILE_URL)
 
         create_rank_images(driver)
-
-        # rank_details_css_prefix = "#UserRankDetails > div:nth-child(1) > div:nth-child(1) > "
-        # rank_progress_elem = driver.find_element(By.CSS_SELECTOR, rank_details_css_prefix + "div:nth-child(2)")
-        # rank_progress_elem.screenshot("data/htb/rank_progress.png")
-
-        # ownership_elem = driver.find_element(By.CSS_SELECTOR, rank_details_css_prefix + "div:nth-child(3)")
-        # ownership_elem.screenshot("data/htb/ownership.png")
-
-        # badges = ["global_rank.png", "final_score.png", "user_owns.png", "system_owns.png", "respect.png"]
-        # rank_details_css_prefix = "#UserRankDetails > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > "
-        # for i, badge in enumerate(badges):
-        #     badge_elem = driver.find_element(
-        #         By.CSS_SELECTOR,
-        #         rank_details_css_prefix + f"div:nth-child({8 + i}) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)"
-        #     )
-        #     badge_elem.screenshot(f"data/htb/{badge}")
+    except:
+        traceback.print_exc()
+        ERROR = 1
     finally:
         driver.quit()
 
@@ -136,32 +127,43 @@ def fetch_activity() -> None:
     """
     Retrieves recent activity and updates the README file with localized images.
     """
+    global ERROR
     existing_images = get_existing_images_from_readme()
+    meta = None
+    page = 1
+    activities = []
 
     try:
-        session = requests.Session()
-        session.headers.update({"User-Agent": "Mozilla/5.0"})
-        response = session.get("https://labs.hackthebox.com/api/v4/profile/activity/498656", timeout=15)
-        response.raise_for_status()
-        activities = response.json().get("profile", {}).get("activity", [])
+        with requests.Session() as session:
+            session.headers.update({"User-Agent": "Mozilla/5.0"})
+            last_page = 1
+            while page <= last_page:
+                response = session.get(API_ACTIVITY_URL, params={"page": page}, timeout=15)
+                response.raise_for_status()
+                body = response.json()
+                activities.extend(body.get("data", []))
+                last_page = body.get("meta", {}).get("lastPage", page)
+                page += 1
     except requests.RequestException:
-        raise SystemExit("Failed to fetch activity")
+        traceback.print_exc()
+        ERROR = 1
+        if not activities:
+            return None
+        print(f"WARNING: partial fetch, stopped at page {page}/{last_page}", file=sys.stderr)
+
 
     new_html_lines = ["<br>\n"]
 
     for activity in activities:
-        if activity.get("object_type") != "machine" or activity.get("type") == "user":
+        avatar_url = activity.get("avatar", "")
+
+        if "machine" not in avatar_url or activity.get("type", "") not in ["user", "root"]:
             continue
 
         machine_name = activity.get("name", "Unknown")
-        avatar_path = activity.get("machine_avatar", "")
-        if avatar_path.startswith("/"):
-            avatar_path = avatar_path[1:]
-
-        full_url = f"https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/{avatar_path}"
         existing_src = existing_images.get(machine_name, "")
 
-        final_src = cache_image_locally(full_url, machine_name, existing_src, session)
+        final_src = cache_image_locally(avatar_url, machine_name, existing_src, session)
         new_html_lines.append(f'    <img src="{final_src}" alt="{machine_name}" width="64px" height="64px"/>\n')
 
     new_block = "".join(new_html_lines)
@@ -189,6 +191,7 @@ def main() -> None:
     """
     fetch_htb_progress_images()
     fetch_activity()
+    exit(ERROR)
 
 
 if __name__ == '__main__':
