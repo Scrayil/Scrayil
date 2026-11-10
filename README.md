@@ -1,10 +1,13 @@
 # 🌱 Mattia Bennati - Scrayil
-> **Creator and exploiter of digital content (IT Engineer/Developer/Hacker/Animal Rights Advocate)**
+> **IT Engineer · Offensive Security · Lighting Control Systems · Animal Rights Advocate**
 
-I am a computer engineer enrolled in a master's degree course in AI at the University of Florence.  
-I love the world of cybersecurity and I'm gradually immersing myself in it in my free time.  
-I am currently studying and working as a part-time developer, while in my spare time I focus on personal projects 
-involving application development, hacking, and video editing.  
+I'm a computer engineer pursuing a master's degree in AI at the University of Florence while working part-time as a lighting control systems engineer for architectural installations worldwide.
+
+In my free time:
+- 🌱 Building **[VegStyle™](https://github.com/vegstylecio)**, a nonprofit project: Go/gRPC backend and Flutter client
+- 🧩 Maintaining **[joplin-plugin-projects](https://github.com/Scrayil/joplin-plugin-projects)**, a Joplin plugin used by the community
+- 🔓 Working toward the **CPTS** certification - currently Professional rank on Hack The Box
+
 I am passionate about everything related to computer science and the animal kingdom, and I also love learning new things 
 and technologies every day.
 
@@ -74,7 +77,7 @@ and technologies every day.
 <p align="start">
   <a href="https://github.com/Scrayil?tab=repositories">
     <img align="center" height="195" src="https://github-readme-stats-two-psi-23.vercel.app/api?username=scrayil&count_private=true&include_all_commits=true&theme=onedark&show_icons=true&hide=contribs" alt="GitHub stats" />
-    <img align="center" height="195" src="https://github-readme-stats-two-psi-23.vercel.app/api/top-langs?username=scrayil&count_private=true&include_all_commits=true&layout=compact&theme=onedark&card_width=320&hide=html,css&langs_count=8" alt="Languages stats" />       
+    <img align="center" height="195" src="https://github-readme-stats-two-psi-23.vercel.app/api/top-langs?username=scrayil&count_private=true&include_all_commits=true&layout=compact&theme=onedark&card_width=320&hide=html,css&langs_count=8&size_weight=0.5&count_weight=0.5" alt="Languages stats" />       
   </a>
 </p>
 
