@@ -8,21 +8,11 @@ involving application development, hacking, and video editing.
 I am passionate about everything related to computer science and the animal kingdom, and I also love learning new things 
 and technologies every day.
 
-<a href="mailto:mattia.bennati@mailbox.org">
-  <img src="data/social/email.png" width="35px" height="35px">
-</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://discordapp.com/users/481689811619545101">
-  <img src="data/social/discord.png" width="35px" height="35px">
-</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://t.me/Scrayil">
-  <img src="data/social/telegram.png" width="35px" height="35px">
-</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.instagram.com/mattia.bennati/">
-  <img src="data/social/instagram.png" width="35px" height="35px">
-</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://vimeo.com/user135105416">
-  <img src="data/social/vimeo.png" width="35px" height="35px">
-</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="mailto:mattia.bennati@mailbox.org"><img src="data/social/email.png" width="35px" height="35px"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://discordapp.com/users/481689811619545101"><img src="data/social/discord.png" width="35px" height="35px"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://t.me/Scrayil"><img src="data/social/telegram.png" width="35px" height="35px"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.instagram.com/mattia.bennati/"><img src="data/social/instagram.png" width="35px" height="35px"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://vimeo.com/user135105416"><img src="data/social/vimeo.png" width="35px" height="35px"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 ---
 ### ⚒️ Languages and tools I use(ed)
@@ -92,12 +82,7 @@ and technologies every day.
 ---
 ### 🪪 Badges
 <p align="start">
-  <a href="https://app.hackthebox.com/public/users/498656">
-    <img align="center" src="https://www.hackthebox.eu/badge/image/498656" alt="HackTheBox Badge" />
-  </a>
-  <a href="https://www.codewars.com/users/Scrayil">
-    <img align="center" src="https://www.codewars.com/users/Scrayil/badges/large" alt="Codewars Stats" />
-  </a>
+  <a href="https://www.codewars.com/users/Scrayil"><img align="center" src="https://www.codewars.com/users/Scrayil/badges/large" alt="Codewars Stats" /></a>
 </p>
 
 ---
