@@ -84,7 +84,7 @@ and technologies every day.
 ### 📈 Stats
 <p align="start">
   <a href="https://github.com/Scrayil?tab=repositories">
-    <img align="center" height="195" src="https://github-readme-stats-two-psi-23.vercel.app/api?username=scrayil&count_private=true&include_all_commits=true&theme=onedark&show_icons=true" alt="GitHub stats" />
+    <img align="center" height="195" src="https://github-readme-stats-two-psi-23.vercel.app/api?username=scrayil&count_private=true&include_all_commits=true&theme=onedark&show_icons=true&hide=contribs" alt="GitHub stats" />
     <img align="center" height="195" src="https://github-readme-stats-two-psi-23.vercel.app/api/top-langs?username=scrayil&count_private=true&include_all_commits=true&layout=compact&theme=onedark&card_width=320&hide=html,css&langs_count=8" alt="Languages stats" />       
   </a>
 </p>
