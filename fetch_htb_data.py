@@ -157,7 +157,7 @@ def fetch_activity() -> None:
     for activity in activities:
         avatar_url = activity.get("avatar", "")
 
-        if "machine" not in avatar_url or activity.get("type", "") not in ["user", "root"]:
+        if "machine" not in avatar_url or activity.get("type", "") != "root":
             continue
 
         machine_name = activity.get("name", "Unknown")

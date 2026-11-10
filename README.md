@@ -106,72 +106,38 @@ and technologies every day.
 <!-- HTB Activities-Start -->
 <br>
     <img src="data/htb/avatars/Return.png" alt="Return" width="64px" height="64px"/>
-    <img src="data/htb/avatars/Return.png" alt="Return" width="64px" height="64px"/>
-    <img src="data/htb/avatars/Legacy.png" alt="Legacy" width="64px" height="64px"/>
     <img src="data/htb/avatars/Legacy.png" alt="Legacy" width="64px" height="64px"/>
     <img src="data/htb/avatars/Instant.png" alt="Instant" width="64px" height="64px"/>
-    <img src="data/htb/avatars/Instant.png" alt="Instant" width="64px" height="64px"/>
-    <img src="data/htb/avatars/Chemistry.png" alt="Chemistry" width="64px" height="64px"/>
     <img src="data/htb/avatars/Chemistry.png" alt="Chemistry" width="64px" height="64px"/>
     <img src="data/htb/avatars/Support.png" alt="Support" width="64px" height="64px"/>
-    <img src="data/htb/avatars/Support.png" alt="Support" width="64px" height="64px"/>
-    <img src="data/htb/avatars/PermX.png" alt="PermX" width="64px" height="64px"/>
     <img src="data/htb/avatars/PermX.png" alt="PermX" width="64px" height="64px"/>
     <img src="data/htb/avatars/GreenHorn.png" alt="GreenHorn" width="64px" height="64px"/>
-    <img src="data/htb/avatars/GreenHorn.png" alt="GreenHorn" width="64px" height="64px"/>
-    <img src="data/htb/avatars/Sea.png" alt="Sea" width="64px" height="64px"/>
     <img src="data/htb/avatars/Sea.png" alt="Sea" width="64px" height="64px"/>
     <img src="data/htb/avatars/Sightless.png" alt="Sightless" width="64px" height="64px"/>
-    <img src="data/htb/avatars/Sightless.png" alt="Sightless" width="64px" height="64px"/>
-    <img src="data/htb/avatars/EvilCUPS.png" alt="EvilCUPS" width="64px" height="64px"/>
     <img src="data/htb/avatars/EvilCUPS.png" alt="EvilCUPS" width="64px" height="64px"/>
     <img src="data/htb/avatars/Horizontall.png" alt="Horizontall" width="64px" height="64px"/>
     <img src="data/htb/avatars/Shoppy.png" alt="Shoppy" width="64px" height="64px"/>
-    <img src="data/htb/avatars/Shoppy.png" alt="Shoppy" width="64px" height="64px"/>
-    <img src="data/htb/avatars/Photobomb.png" alt="Photobomb" width="64px" height="64px"/>
     <img src="data/htb/avatars/Photobomb.png" alt="Photobomb" width="64px" height="64px"/>
     <img src="data/htb/avatars/MetaTwo.png" alt="MetaTwo" width="64px" height="64px"/>
-    <img src="data/htb/avatars/MetaTwo.png" alt="MetaTwo" width="64px" height="64px"/>
-    <img src="data/htb/avatars/Squashed.png" alt="Squashed" width="64px" height="64px"/>
     <img src="data/htb/avatars/Squashed.png" alt="Squashed" width="64px" height="64px"/>
     <img src="data/htb/avatars/Precious.png" alt="Precious" width="64px" height="64px"/>
-    <img src="data/htb/avatars/Precious.png" alt="Precious" width="64px" height="64px"/>
-    <img src="data/htb/avatars/Nunchucks.png" alt="Nunchucks" width="64px" height="64px"/>
     <img src="data/htb/avatars/Nunchucks.png" alt="Nunchucks" width="64px" height="64px"/>
     <img src="data/htb/avatars/Validation.png" alt="Validation" width="64px" height="64px"/>
-    <img src="data/htb/avatars/Validation.png" alt="Validation" width="64px" height="64px"/>
-    <img src="data/htb/avatars/Horizontall.png" alt="Horizontall" width="64px" height="64px"/>
-    <img src="data/htb/avatars/BountyHunter.png" alt="BountyHunter" width="64px" height="64px"/>
     <img src="data/htb/avatars/BountyHunter.png" alt="BountyHunter" width="64px" height="64px"/>
     <img src="data/htb/avatars/Previse.png" alt="Previse" width="64px" height="64px"/>
-    <img src="data/htb/avatars/Previse.png" alt="Previse" width="64px" height="64px"/>
-    <img src="data/htb/avatars/Blue.png" alt="Blue" width="64px" height="64px"/>
     <img src="data/htb/avatars/Blue.png" alt="Blue" width="64px" height="64px"/>
     <img src="data/htb/avatars/Netmon.png" alt="Netmon" width="64px" height="64px"/>
-    <img src="data/htb/avatars/Netmon.png" alt="Netmon" width="64px" height="64px"/>
-    <img src="data/htb/avatars/Jerry.png" alt="Jerry" width="64px" height="64px"/>
     <img src="data/htb/avatars/Jerry.png" alt="Jerry" width="64px" height="64px"/>
     <img src="data/htb/avatars/Lame.png" alt="Lame" width="64px" height="64px"/>
-    <img src="data/htb/avatars/Lame.png" alt="Lame" width="64px" height="64px"/>
-    <img src="data/htb/avatars/Explore.png" alt="Explore" width="64px" height="64px"/>
     <img src="data/htb/avatars/Explore.png" alt="Explore" width="64px" height="64px"/>
     <img src="data/htb/avatars/Cap.png" alt="Cap" width="64px" height="64px"/>
-    <img src="data/htb/avatars/Cap.png" alt="Cap" width="64px" height="64px"/>
-    <img src="data/htb/avatars/Knife.png" alt="Knife" width="64px" height="64px"/>
     <img src="data/htb/avatars/Knife.png" alt="Knife" width="64px" height="64px"/>
     <img src="data/htb/avatars/Heist.png" alt="Heist" width="64px" height="64px"/>
-    <img src="data/htb/avatars/Heist.png" alt="Heist" width="64px" height="64px"/>
-    <img src="data/htb/avatars/OpenAdmin.png" alt="OpenAdmin" width="64px" height="64px"/>
     <img src="data/htb/avatars/OpenAdmin.png" alt="OpenAdmin" width="64px" height="64px"/>
     <img src="data/htb/avatars/Shocker.png" alt="Shocker" width="64px" height="64px"/>
-    <img src="data/htb/avatars/Shocker.png" alt="Shocker" width="64px" height="64px"/>
-    <img src="data/htb/avatars/Traverxec.png" alt="Traverxec" width="64px" height="64px"/>
     <img src="data/htb/avatars/Traverxec.png" alt="Traverxec" width="64px" height="64px"/>
     <img src="data/htb/avatars/Forest.png" alt="Forest" width="64px" height="64px"/>
-    <img src="data/htb/avatars/Forest.png" alt="Forest" width="64px" height="64px"/>
     <img src="data/htb/avatars/Writeup.png" alt="Writeup" width="64px" height="64px"/>
-    <img src="data/htb/avatars/Writeup.png" alt="Writeup" width="64px" height="64px"/>
-    <img src="data/htb/avatars/Armageddon.png" alt="Armageddon" width="64px" height="64px"/>
     <img src="data/htb/avatars/Armageddon.png" alt="Armageddon" width="64px" height="64px"/>
 <!-- HTB Activities-Stop --><br>
 </details>
